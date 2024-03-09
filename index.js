@@ -35,9 +35,9 @@ window.addEventListener('scroll', function() {
 function isElementInViewport(el) {
     const rect = el.getBoundingClientRect();
     const windowHeight = window.innerHeight || document.documentElement.clientHeight;
-    const halfHeight = rect.height / 3.5; // Half the height of the element
+    const halfHeight = rect.height / 2; // Half the height of the element
     return (
         rect.top >= -halfHeight &&
-        rect.bottom <= windowHeight + halfHeight
+        rect.bottom <= windowHeight + halfHeight + 100
     );
 }
