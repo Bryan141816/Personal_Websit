@@ -200,7 +200,7 @@ main{
     }
     .imageVisible{
         transform: scale(0.96); /* Initial scale down */
-        border-radius: 5px; /* Initial border radius */
+        border-radius: 20px; /* Initial border radius */
     }
     #fact{
         font-size: 2rem;
