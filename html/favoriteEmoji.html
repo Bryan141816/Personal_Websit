@@ -11,11 +11,16 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 </head>
 <body>
-    <nav>
-        <a href="index.html">About Me</a>
-        <a href="" class="currentPage">Favorite Emoji</a>
-        <a href="photos.html">Photos</a>
-        <a href="things.html">Things I live By</a>
+    <nav class="navbar">
+        <div id="navbar-toggle">
+            <button id="nav-toggle-btn">&#9776;</button>
+        </div>
+        <div id="nav-link-container">
+            <a href="index.html" class="navlink" id="currentPage">About Me</a>
+            <a href="favoriteEmoji.html" class="navlink currentPage">Favorite Emoji</a>
+            <a href="photos.html"class="navlink currentPage">Photos</a>
+            <a href="things.html"class="navlink currentPage">Things I live By</a>
+        <div>
     </nav>
     <main>
         <h1>Wow its so empty in here!</h1>
@@ -27,8 +32,9 @@
             <a href="https://www.instagram.com/bryanantier/"><i class="fab fa-instagram"></i></a>
             <a href="https://twitter.com/bryanantier7gm1"><i class="fab fa-twitter"></i></a>
             <a href="https://github.com/Bryan141816"><i class="fab fa-github"></i></a>
-            <!-- Add more social media links as needed -->
+
         </div>
     </footer>
+    <script src="../scripts/nav.js"></script>
 </body>
 </html>

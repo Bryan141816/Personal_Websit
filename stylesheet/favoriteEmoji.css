@@ -17,10 +17,22 @@ main{
     align-items: center;
     height: 100%;
 }
-main h1{
+main h2{
     font-size: 5rem;
     font-weight: 500;
     margin: 0;
     padding: 0;
     padding-left: 3rem;
+}
+table{
+    margin-top: 3rem;
+}
+th{
+    font-size: 2rem;
+    font-weight: 500;
+}
+td{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 400;
 }
