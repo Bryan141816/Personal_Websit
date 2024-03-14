@@ -33,5 +33,5 @@ document.addEventListener("DOMContentLoaded",function(){
 
         const mainText = document.getElementById("mainText");
         mainText.classList.add("textVisible");
-    }, 500); 
+    }, 200); 
 });

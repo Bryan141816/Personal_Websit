@@ -41,8 +41,8 @@ main{
 }
 @media only screen and (min-width: 768px) {
     h2{
-        font-size: 4rem;
-        font-weight: 500;
+        font-size: 3rem;
+        font-weight: 300;
         margin: 0;
         padding: 0;
         padding-left: 3rem;

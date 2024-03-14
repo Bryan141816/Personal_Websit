@@ -52,5 +52,5 @@ document.addEventListener("DOMContentLoaded", function() {
 
         const mainText = document.getElementById("mainText");
         mainText.classList.add("textVisible");
-    }, 500); // Adjust the delay time (in milliseconds) as needed
+    }, 200); // Adjust the delay time (in milliseconds) as needed
 });
