@@ -15,24 +15,49 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     height: 100%;
 }
-main h2{
-    font-size: 5rem;
-    font-weight: 500;
-    margin: 0;
-    padding: 0;
-    padding-left: 3rem;
+@media only screen and (max-width: 768px) {
+    h2{
+        font-size: 2rem;
+        font-weight: 500;
+        margin: 0;
+        padding: 0;
+    }
+    
+    table{
+        margin-top: 1rem;
+    }
+    th{
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    td{
+        font-size: 1.6rem;
+        text-align: center;
+        font-weight: 400;
+    }
 }
-table{
-    margin-top: 3rem;
-}
-th{
-    font-size: 2rem;
-    font-weight: 500;
-}
-td{
-    font-size: 3rem;
-    text-align: center;
-    font-weight: 400;
+@media only screen and (min-width: 768px) {
+    h2{
+        font-size: 4rem;
+        font-weight: 500;
+        margin: 0;
+        padding: 0;
+        padding-left: 3rem;
+    }
+    
+    table{
+        margin-top: 1rem;
+    }
+    th{
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    td{
+        font-size: 3rem;
+        text-align: center;
+        font-weight: 400;
+    }
 }

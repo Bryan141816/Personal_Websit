@@ -5,11 +5,17 @@ document.addEventListener("DOMContentLoaded", function() {
 
     navToggleBtn.addEventListener('click', function() {
         if (window.getComputedStyle(navLinkContainer).display === 'none') {
+            // Open the menu
             navLinkContainer.style.display = 'flex';
             navToggleBtn.textContent = '✕'; // Change to close icon
+            // Disable scrolling
+            document.body.style.overflow = 'hidden';
         } else {
+            // Close the menu
             navLinkContainer.style.display = 'none';
             navToggleBtn.textContent = '☰'; // Change to menu icon
+            // Enable scrolling
+            document.body.style.overflow = 'auto';
         }
         navbarLinks.forEach(link => {
             // Delay adding the class by 50 milliseconds

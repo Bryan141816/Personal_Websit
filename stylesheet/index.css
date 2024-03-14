@@ -163,6 +163,9 @@ main{
     
 }
 @media only screen and (max-width: 768px) {
+    main{
+        margin-bottom: 1rem;
+    }
     #mainText{
         margin: 0;
         display: flex;
